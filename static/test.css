@@ -10,15 +10,15 @@ h1{
     height: 800px;
     /* border: 2px solid black; */
     flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 .box{
     border: 2px solid red;
     display: grid;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
     height: 600px;
-    margin: 0.5em;
+    /* margin: 0.5em; */
     grid-gap: 5px;
     /* padding: 1em; */
     background-color: rgb(255, 115, 0);
@@ -94,6 +94,9 @@ img{
     margin: 1.5em;
 }
 @media screen and (max-width:768px){
+    .cont{
+        flex-wrap: wrap;
+    }
     .box{
         width: 90%;
         margin: 1em auto;
